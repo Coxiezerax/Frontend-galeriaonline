@@ -1,0 +1,63 @@
+/* Fondo general de la página de farmacias */
+.farmacias-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.75)),
+    url('/img/escher.jpg'); /* pon aquí la ruta real de tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Tu contenedor principal ahora es una "tarjeta" grande */
+.farmacias-container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.96);
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
+/* Título principal dentro de la tarjeta */
+.farmacias-container h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+/* Texto de cantidad de resultados */
+.resultados-count {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+/* Encabezado de la card (nombre farmacia + comuna) */
+.farmacia-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+/* Badge de comuna más suave */
+.farmacia-card .badge {
+  font-size: 0.75rem;
+  background-color: #ff4b6a;
+}
+
+/* Labels en negrita y gris bonito */
+.info-row .label {
+  font-weight: 600;
+  color: #444;
+}
+
+/* Valores normales */
+.info-row .value {
+  font-weight: 400;
+}
+
+/* (el resto de tu CSS se mantiene tal como lo tienes) */
